@@ -1,0 +1,66 @@
+.bgimage
+{
+  height: 260vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-left: 0px;
+}
+.wrapper
+{
+  background: rgba(0,0,0,.9);
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-position: 50% 50%;
+}
+h1
+{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 35px;
+}
+#heading
+{
+   color:white;
+   margin-top: 5px;
+   background: rgba(0,0,0,2);
+   height: 140px;
+}
+#wccimg
+{
+  margin-left: 30%;
+}
+h3
+{
+	margin-top: 20px;
+	font-size: 40px;
+	text-align: center;
+}
+.row
+{
+	margin-left: 40px;
+	display: flex;
+	margin-top: 0px;
+}
+.ST
+{
+	margin-left: 30px;
+}
+.lst-row
+{
+	margin-left: 40px;
+	display: flex;
+	margin-top: 21px;
+}
+.row img:hover
+{
+	filter: grayscale(100%);
+  transform: scale(1.1);
+}
+.lst-row img:hover
+{
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}

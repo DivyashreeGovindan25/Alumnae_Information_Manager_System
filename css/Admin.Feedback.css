@@ -1,0 +1,43 @@
+main h1
+{
+    margin-left: 740px;
+    margin-top: 10px;
+}
+main div
+{
+   margin-left: 490px;
+   margin-top: 40px;
+}
+
+table 
+{
+  border-collapse: collapse;
+  width: 75%;
+  font-family: monospace;
+  font-size: 18px;
+  text-align: left;
+  color: seagreen;
+}
+th 
+{
+  background-color: seagreen;
+  color: white;
+}
+tr
+{
+  color:black;
+}
+tr:nth-child(even) 
+{
+  background-color: #f2f2f2;
+  color: darkgreen;
+}
+table tr:last-of-type
+{
+  border-bottom: 2px solid #009879;
+}
+#submit
+{
+  height: 30px;
+  width: 70px;
+}

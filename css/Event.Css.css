@@ -1,0 +1,219 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+
+}
+
+html 
+{
+
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body 
+{
+
+    font-size: 10px;
+    font-weight: 700;
+    font-family: lato, Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+    background: #12475f;
+    height:100%;
+}
+.event
+{
+    background: #12475f;
+    height:100%;
+}
+
+.event .header-text 
+{
+    text-align: center;
+    padding: 6rem 0;
+    color: #fff;
+    font-size: 25px;
+}
+
+.event .header-text h2 
+{
+    font-size: 3.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.7;
+}
+.event .header-text img
+{
+     margin-left: -1500px;
+     margin-top: -150px;
+}
+.event .event-content 
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+}
+
+.event .event-content .content-post 
+{
+    width: 40rem;
+    border: 1px solid #f1f1f1;
+    margin: 1.2rem;
+    transition: all .4s;
+    margin-left: 60px;
+}
+
+.event .event-content .content-post:hover 
+{
+    box-shadow: 0 6px 12px rgba(202, 202, 202, 0.2);
+}
+
+.event .event-content .content-post .event_photo 
+{
+    height: 30rem;
+    overflow: hidden;
+}
+
+.event-content .content-post .event_photo img 
+{
+    width: 100%;
+    height: 100%;
+    transition: all .4s;
+}
+
+.event-content .content-post .event_photo img:hover
+{
+    transform: scale(1.2);
+}
+
+.event-content .content-post .content-text
+{
+    position: relative;
+    padding: 4rem 2rem;
+}
+
+.event-content .content-post .content-text h4 
+{
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+.event-content .content-post .content-text .post-detail
+{
+    position: absolute;
+    top: -6rem;
+    left: 2rem;
+    list-style-type: none;
+    font-size: 1.2rem;
+    color: black;
+    background: #99ffcc;
+    display: inline-block;
+    padding: 1.4rem;
+}
+.event-content .content-post .content-text .post-detail li 
+{
+    display: inline-block;
+    padding-right: 1.2rem;
+}
+.event-content .content-post .content-text p 
+{
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding-top: 1.2rem;
+    color: #fff;
+
+}
+.event .event_post 
+{
+    text-align: center;
+    margin: 7rem 0;
+}
+
+@media only screen and (max-width: 1080px) {
+
+    .event .header--text h2 {
+
+        font-size: 2.7rem;
+
+    }
+
+    .event .header--text p {
+
+        font-size: 1.2rem;
+
+    }
+
+
+    .event--content .content--post .content--text h4 {
+
+        font-size: 1.8rem;
+
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .event .header--text h2 {
+
+        font-size: 2.5rem;
+
+    }
+
+    .event .header--text p {
+
+        font-size: 1.2rem;
+
+    }
+
+    .event .event--content .content--post {
+
+        width: 50%;
+
+    }
+
+
+    .event--content .content--post .content--text h4 {
+
+        font-size: 1.6rem;
+
+    }
+
+    .event--content .content--post .content--text .post--detail {
+
+        position: absolute;
+        top: -7rem;
+        padding: 1.4rem;
+
+    }
+
+    .event--content .content--post .content--text p {
+
+        font-size: 1.4rem;
+        font-weight: 400;
+
+        padding-top: 1.2rem;
+
+    }
+
+    .event--content .content--post .content--text a:link,
+    .event--content .content--post .content--text a:visited {
+
+        font-size: 1.1rem;
+
+    }
+    
+    .event .event__post a:link,
+    .event .event__post a:visited {
+    
+        font-size: .8rem;
+        padding: 1.7rem 2rem;
+    
+    }
+
+}

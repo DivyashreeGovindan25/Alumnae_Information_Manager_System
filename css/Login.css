@@ -1,0 +1,260 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body 
+{
+  font-family: sans-serif;
+  display: flex;
+  background: #1abc9c;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+.nav nav
+ {
+    background-color: #12475f;
+    height: 130px;
+    width:158.5% ;
+    top: 0;
+ }
+ h1
+ {
+    margin-left: 40px;
+    font-size: 40px;
+    margin-top: 15px;
+    color: white;
+}
+h4
+{
+    margin-left: 40px;
+    font-size: 25px;
+    color: white;
+}
+.nav nav ul
+{
+  float: right;
+  margin-right: 20px;
+}
+.nav nav ul li
+{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+.nav nav ul li a
+{
+  color: white;
+  font-size: 30px;
+  padding: 7px 13px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+nav ul li a:hover,active
+{
+    background: #1abc9c  ;
+}
+span 
+{
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+i 
+{
+    width: 45px;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+    margin-top: 15px;
+}
+.wrapper
+{
+    padding: 20px;
+    width: 400px;
+    height: 480px;
+    margin-top: 110px;
+    font-style: bold;
+    font-weight: 600;
+    background: #fff;
+    margin-left: 600px;
+    border-radius: 45px;
+    border-right: 3px solid #12475f;
+}
+.inputname 
+{
+    color: black;
+    pointer-events: none;
+    margin-top: 0px;
+    padding: 0;
+}
+.input-wrapper
+{
+  margin-top: 25px;
+}
+.inputbox
+ {
+    width: 255px;
+    margin-top: 16px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.inputname 
+{
+    position: relative;
+    top: -30px;
+    left: 0;
+    margin-left: -2px;
+    transition: 0.25s ease-in-out;
+     margin-top: -2px;
+}
+.body-wrapper .inputbox input 
+{
+    width: 120%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    margin-left: -2px;
+    margin-top: -2px;
+}
+.wrapper .inputbox input:focus~span,
+.wrapper .inputbox input:valid~span 
+{
+    position: relative;
+    top: -60px;
+    font-size: 13px;
+    color: #12475f;
+}
+
+.wrapper.inputbox textarea:focus~span,
+.wrapper .inputbox textarea:valid~span 
+{
+    position: relative;
+    top: -120px;
+    font-size: 13px;
+    color: #12475f;
+}
+
+.submit
+ {
+    border: 1px solid #12475f;
+    color: black;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-left: 60px;
+    width: 160px;
+    height: 45px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.submit:hover,active
+{
+   background: #1abc9c;
+}
+.heading-login
+{
+    margin-left: 40px;
+    margin-top: 5px;
+    color: #12475f;
+    width: 400px;
+    padding-left: 80px;
+    height: 70px;
+}
+.underline_heading
+{
+    border-bottom: 2px solid #12475f;
+    margin-left: -20px;
+    width: 400px;
+}
+.heading-Alumnae-login
+{
+    margin-left: -20px;
+    margin-top: 5px;
+    color: #12475f;
+    border-bottom: 2px solid #12475f;
+    width: 400px;
+    padding-left: 50px;
+    height: 80px;
+
+}
+.wrapper a
+{
+   color: black;
+   text-decoration: none;
+   margin-top: 40px;
+   margin-left: 150px;
+}
+.wrapper a:hover
+{
+   color: #12475f;
+}
+.radio-container 
+{
+  font-size: 18px;
+  padding: 7px;
+  margin-top: 20px;
+}
+
+input[type="radio"] 
+{
+  display: none;
+}
+
+label 
+{
+  position: relative;
+  cursor: pointer;
+  font-weight: bold;
+  padding-right: 12px;
+}
+
+label:nth-last-child(1) {
+  padding-right: 0;
+}
+
+label::before {
+  content: "";
+  border: 2px solid #222;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: -8px 10px;
+  margin-left: 0;
+  border-radius: 50%;
+}
+
+label::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: rgba(34, 34, 34, 0);
+  left: 3.65px;
+  top: 12px;
+  margin: -8px 20px;
+  margin-left: 0;
+  border-radius: 50%;
+
+  transition: all 0.4s;
+}
+
+input[type="radio"]:checked + label::after 
+{
+  background: #12475f;
+}

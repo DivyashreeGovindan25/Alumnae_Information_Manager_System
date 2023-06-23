@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+body
+{
+   background-color:#99c2ff;
+}
+.nav nav
+ {
+    background-color: #12475f;
+    height: 80px;
+    width: 1600px;
+    top: 0;
+    margin-left: -8px;
+ }
+.nav nav h4
+{
+    margin-left: 20px;
+    font-size: 36px;
+    color: white;
+    margin-top: 10px;
+    padding: 17px 5px;
+}
+.nav nav ul
+{
+  float: right;
+  margin-right: 20px;
+}
+.nav nav ul li
+{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  margin-top: -15px;
+}
+.nav nav ul li a
+{
+  color: white;
+  font-size: 23px;
+  padding: 7px 13px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+nav ul li a:hover,active
+{
+    background: #99c2ff;
+    color: black;
+}
+#name
+{
+   display: flex;
+}
+#name h2
+{
+   margin-left: 16px;
+   margin-top: 29px;
+}
+.popup .content {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-150%) scale(0);
+ width: 300px;
+ height: 450px;
+ z-index: 2;
+ text-align: center;
+ padding: 20px;
+ border-radius: 20px;
+ background: #12475f;
+ z-index: 1;
+}
+
+.popup .close-btn 
+{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    color: black;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 2px 5px 7px 5px;
+    background: #99c2ff;
+ }
+
+.popup.active .content 
+{
+   transition: all 300ms ease-in-out;
+   transform: translate(-50%,-50%) scale(1);
+}
+
+.content h1 
+{
+ text-align: center;
+ font-size: 32px;
+ font-weight: 600;
+ padding-top: 20px;
+ padding-bottom: 10px;
+ color: white;
+}
+
+a 
+{
+ font-weight: 600;
+ color: white;
+}
+
+.input-field .validate 
+{
+   padding: 20px;
+   font-size: 16px;
+   border-radius: 10px;
+   border: none;
+   margin-bottom: 15px;
+   color: black;
+   background: white;
+   outline: none;
+   width: 250px;
+}
+
+.second-button 
+{
+   color: black;
+   font-size: 18px;
+   font-weight: 500;
+   margin-top: 20px;
+   padding: 20px 0px;
+   border-radius: 6px;
+   border: none;
+   background: #99c2ff;
+   outline: none;
+   width: 170px;
+   height: 50px;
+}
+
+.second-button:active
+{
+   background: linear-gradient(145deg,#222222, #292929);
+   box-shadow: 5px 5px 10px #262626, -5px -5px 10px #262626;
+   border: none;
+   outline: none;
+}

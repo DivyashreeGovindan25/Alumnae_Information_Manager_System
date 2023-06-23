@@ -1,0 +1,95 @@
+* 
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body 
+{
+  font-family: "Montserrat";
+}
+section 
+{
+  height: 100%;
+  width: 100%;
+  background-color: #12475f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+form
+{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.container form h1
+{
+   margin-left: 430px;
+   font-size: 50px;
+   margin-top: 10px;
+}
+.form-group
+{
+  width: 100%;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.first-form-group
+{
+  width: 100%;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.last-form-group
+{
+  width: 100%;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.form-group input,.first-form-group input
+{
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  border:none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+.last-form-group textarea 
+{
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  border:1px solid black;
+}
+textarea 
+{
+  resize: vertical;
+  margin-top: 30px;
+}
+button[type="submit"] 
+{
+  width: 15%;
+  border: none;
+  outline: none;
+  padding: 20px;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 8px;
+  color: #12475f;
+  text-align: center;
+  background-color:  #1abc9c;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: 1000px;
+  transition: 0.3s ease background-color;
+}
+button[type="submit"]:hover 
+{
+  background-color: rgb(214, 226, 236);
+}
+#to
+{
+  overflow-wrap: break-word;
+}

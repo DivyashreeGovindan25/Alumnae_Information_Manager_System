@@ -1,0 +1,186 @@
+@import url("http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+* {
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+}
+
+body
+ {
+
+    align-items: center;
+    background: #1abc9c;
+}
+.wrapper
+{
+    margin-top: -30px;
+}
+.container 
+{
+    background: #ffffff;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+    margin-top: 60px;
+    margin-left: 370px;
+    box-shadow: -10px 20px 50px #91010fcc;
+    width: 800px;
+}
+
+.contact-info 
+{
+    padding: 20px;
+    background: #12475f;
+    width: 260px;
+    height: 350px;
+    color: #fafafa;
+    margin-top: 50px;
+    margin-left: -100px;
+    border-radius: 2px;
+    border-right: 4px solid #1abc9c;
+}
+
+span 
+{
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+i 
+{
+    width: 45px;
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+    margin-top: 15px;
+}
+.contact 
+{
+    padding: 20px;
+    width: 600px;
+    height: 350px;
+    margin-top: 50px;
+    font-style: bold;
+    font-weight: 600;
+}
+
+.heading 
+{
+    font-size: 60px;
+    padding: 20px;
+}
+.heading-container 
+{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+}
+.heading-container h1
+{
+    margin-left: 500px;
+}
+.heading-container img
+{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.inputname 
+{
+    color: black;
+    pointer-events: none;
+    margin-top: 0px;
+    padding: 0;
+}
+
+.inputbox
+ {
+    width: 255px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.inputname 
+{
+    position: relative;
+    top: -30px;
+    left: 0;
+    transition: 0.25s ease-in-out;
+}
+
+input 
+{
+    width: 90%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+textarea 
+{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    resize: none;
+    width: 515px;
+}
+
+.textname 
+{
+    color: black;
+    pointer-events: none;
+    margin-top: 0px;
+    padding: 0;
+    position: relative;
+    top: -100px;
+    left: 0;
+    transition: 0.25s ease-in-out;
+}
+
+.container .contact .inputbox input:focus~span,
+.container .contact .inputbox input:valid~span 
+{
+    position: relative;
+    top: -60px;
+    font-size: 13px;
+    color: #12475f;
+}
+
+.container .contact .inputbox textarea:focus~span,
+.container .contact .inputbox textarea:valid~span 
+{
+    position: relative;
+    top: -120px;
+    font-size: 13px;
+    color: #12475f;
+}
+
+.submit
+ {
+    background: #1abc9c;
+    color: black;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-left: 20px;
+    width: 160px;
+    height: 45px;
+    font-size: 15px;
+    border: none;
+}
+#call-sec-num
+{
+   padding-left: 50px;
+}
+.heading-send-message
+{
+    margin-left: 20px;
+    margin-top: -20px;
+}

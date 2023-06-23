@@ -1,0 +1,161 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body 
+{
+  font-family: sans-serif;
+  display: flex;
+  background: #1abc9c;
+  border: none;
+  outline: none;
+}
+.mydiv
+{
+    height: 100%;
+    width: 1600px;
+}
+.nav nav
+ {
+    background-color: #12475f;
+    height: 80px;
+    width: 1600px;
+    top: 0;
+ }
+.nav nav h4
+{
+    margin-left: 40px;
+    font-size: 36px;
+    color: white;
+    margin-top: 10px;
+    padding: 17px 5px;
+}
+.nav nav ul
+{
+  float: right;
+  margin-right: 20px;
+}
+.nav nav ul li
+{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+.nav nav ul li a
+{
+  color: white;
+  font-size: 23px;
+  padding: 7px 13px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+nav ul li a:hover,active
+{
+    background: #1abc9c  ;
+}
+
+.inputname 
+{
+    color: black;
+    pointer-events: none;
+    margin-top: 0px;
+    padding: 0;
+}
+form .input-wrapper
+{
+  margin-top: 100px;
+}
+.inputbox
+ {
+    width: 255px;
+    margin-top: 16px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.inputname 
+{
+    position: relative;
+    top: -30px;
+    left: 0;
+    margin-left: -2px;
+    transition: 0.25s ease-in-out;
+     margin-top: -2px;
+}
+.input-wrapper div
+{
+   display: flex;
+}
+.input-wrapper .inputbox label
+{
+   width: 300px;
+   font-size: 18px;
+   font-weight: 700;
+   font-style: normal;
+}
+.input-wrapper .inputbox input 
+{
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    padding: 5px;
+    margin-left: 200px;
+    background-color: #1abc9c;
+    color: black;
+}
+.input-wrapper .inputbox textarea 
+{
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    padding: 5px;
+    margin-left: 200px;
+    background-color: #1abc9c;
+    color: black;
+}
+::placeholder 
+{ 
+  color: black;
+  opacity: 1;
+}
+:-ms-input-placeholder
+{ 
+  color: black;
+}
+
+::-ms-input-placeholder 
+{ 
+  color: black;
+}
+.body-wrapper
+{
+   margin-left: 290px;
+   margin-top: 100px;
+}
+.submit
+ {
+    border: 1px solid #12475f;
+    color: black;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-left: 770px;
+    width: 160px;
+    height: 45px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #12475f;
+}
+.submit:hover,active
+{
+   background: #ff0000;
+}

@@ -1,0 +1,318 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+}
+body
+{
+	font-family: sans-serif;
+  user-select: none;
+	min-width: 40%;
+	min-height: 110%;
+}
+.bgimage
+{
+  min-height: 100vh;
+  min-width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.wrapper
+{
+  background: rgba(0,0,0,.6);
+  position: relative;
+  min-height: 50%;
+  min-width: 100%;
+  background-position: 50% 50%;
+}
+#wcc
+{
+  margin-right: 635px;
+  float: right;
+  font-size: 25px;
+  margin-top: 25px;
+  font-weight: 40px;
+}
+h1
+{
+  margin-left: 250px;
+  margin-top: 20px;
+  font-size: 45px;
+}
+#heading
+{
+   color:white;
+   
+}
+#wccimg
+{
+  margin-left: 30%;
+}
+.wrapper nav .it
+{
+  color: white;
+  font-size: 23px;
+  line-height: 70px;
+  padding-left: 30px;
+}
+.wrapper nav
+{
+  height: 70px;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 3px 15px rgba(0,0,0,.4);
+  margin-top: 16px;
+}
+.wrapper nav ul
+{
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+.wrapper nav ul li
+{
+  display: inline-block;
+}
+.wrapper nav ul li a
+{
+  color: white;
+  display: block;
+  padding: 0 45px;
+  line-height: 50px;
+  font-size: 20px;
+  transition: .5s;
+  top: 10px;
+}
+.wrapper nav ul li a:hover,.wrapper nav ul li a.active
+{
+  background-color: #ff0000;
+}
+.wrapper nav ul ul
+{
+  position: absolute;
+  top: 75px;
+  border-top: 5px solid black;
+  opacity: 0;
+  visibility: hidden;
+  background-color: rgba(0,0,0,.8);
+}
+.wrapper nav ul li:hover > ul
+{
+  top: 205px;
+  opacity: 1;
+  visibility: visible;
+}
+.wrapper nav ul ul li
+{
+  width: 140px;
+  display: list-item;
+  position: relative;
+  border: 1px solid rgba(0,0,0,0.8);
+  border-top: none;
+}
+.wrapper nav ul ul li a
+{
+  line-height: 50px;
+}
+.wrapper nav ul ul li a i
+{
+  margin-left: 40px;
+}
+.footer
+{
+	background: #303036;
+	color: #d3d3d3;
+	height: 290px;
+	width: 1600px;
+	position: relative;
+  min-margin-top:30%;
+}
+.footer .foot-content
+{
+	border: 1px solid red;
+	height: 260px;
+	display: flex;
+}
+.footer .foot-bottom
+{
+	background: #343a40;
+	color: white;
+    position: absolute;
+    text-align: center;
+    height: 23px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 5px;
+}
+.footer .foot-content .foot-about
+{
+   margin-left: 50px;
+   margin-top: 30px;
+   width: 500px;
+}
+.footer .foot-content .foot-about h4
+{
+	text-decoration: 2px underline;
+   text-decoration-color: red;
+   font-size: 25px;
+   font-style: bold;
+}
+.footer .foot-content .foot-about p
+{
+	margin-top: 20px;
+	text-align: justify;
+}
+.footer .foot-content .foot-links
+{
+   margin-left: 110px;
+   margin-top: 30px;
+    width: 160px;
+}
+.footer .foot-content .foot-links h4
+{
+text-decoration: 2px underline;
+   text-decoration-color: red;
+   font-size: 25px;
+   font-style: bold;
+}
+.footer .foot-content .foot-links ul
+{
+   color: white;
+   margin-top: 20px;
+   text-align: center;
+}
+.footer .foot-content .foot-links nav ul li a
+{
+  color: white;
+}
+.footer .foot-content .foot-feedback
+{
+   margin-left: 300px;
+   margin-top: 30px;
+   width: 400px;
+}
+.footer .foot-content .foot-feedback h4
+{
+	text-decoration: 2px underline;
+   text-decoration-color: red;
+   font-size: 25px;
+   font-style: bold;
+}
+form
+{
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	line-height: 10px;
+}
+.foot-feedback form .text
+{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #BAC3D3;
+}
+.foot-feedback form .msg
+{
+  margin-top: 10px;
+}
+.foot-feedback form input, .foot-feedback form textarea
+{
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #151515;
+  padding-left: 10px;
+  border: 1px solid #222222;
+  color: #DCE0E8;
+}
+.foot-feedback form input:focus,.foot-feedback form textarea:focus
+{
+  outline-color: #3498db;
+}
+.foot-feedback form input
+{
+  height: 28px;
+}
+.foot-feedback form .btn
+{
+  margin-top: 10px;
+}
+.foot-feedback form .btn button
+{
+  height: 40px;
+  width: 30%;
+  border: none;
+  outline: none;
+  background: #f12020;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+}
+.foot-feedback form .btn button:hover
+{
+  background: #D1B7C1;
+}
+.scrolldown
+{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  transform: translateY(-80px) translateX(-50%) rotate(45deg);
+}
+.scrolldown span
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+  animation: animate 1.5s linear infinite;
+  opacity: 0;
+}
+.scrolldown span:nth-child(1)
+{
+  transform: translate(-15px,-15px);
+  animation-delay: -0.4s;
+}
+.scrolldown span:nth-child(2)
+{
+  transform: translate(0,0);
+  animation-delay: -0.2s;
+}
+.scrolldown span:nth-child(3)
+{
+  transform: translate(15px,15px);
+  animation-delay: 0s;
+}
+@keyframes animate
+{
+   0%
+   {
+      top: -5px;
+      left: -5px;
+      opacity: 0;
+   }
+   25%
+   {
+      top: 0px;
+      left: 0px;
+      opacity: 1;
+   }
+   50%,100%
+   {
+      top: 5px;
+      left: 5px;
+      opacity: 0;
+   }
+}

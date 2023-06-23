@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+body
+{
+   background-color:#99c2ff;
+}
+.search-wrapper
+{
+    margin-top: 0px;
+}
+.search-wrapper form
+{
+  display: flex;
+  margin-top: 5px;
+  margin-left: -10px;
+  width: 101%;
+  background-color:  #12475f;
+}
+.search-wrapper form .social-icons
+{
+   display: flex;
+   margin-right: 200px;
+}
+.search-wrapper form .social-icons .container 
+{
+  width: 60%;
+  margin: -41px 30px 15px 300px;
+  float: right;
+}
+.search-wrapper form .social-icons .select-container 
+{
+  padding: 10px;
+  border: 2px solid #b02ed3;
+  position: relative;
+  border-radius: 3px;
+  background: #fff;
+  margin-top: 50px;
+  width: 140px;
+  margin-right: -320px;
+}
+.search-wrapper form .social-icons .select-container select 
+{
+  width: 90%;
+  border: 0;
+  background: transparent;
+  font-size: 16px;
+  outline: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.search-wrapper form .social-icons .select-container:after 
+{
+  content: 'keyboard_arrow_down';
+  font-family: 'material icons';
+  font-size: 24px;
+  color: #666;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.search-wrapper form .social-icons #search
+{
+  background: #1a53ff;
+  width: 75px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1.5px solid black;
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: -280px;
+  color: white;
+}
+
+.search-wrapper form .fas
+{
+   margin-top: 22px;
+   margin-left: 20px;
+   color: white;
+}
+.search-wrapper form input
+{
+    border: 0;
+    outline: 0;
+    padding: 1rem;
+    height: 28px;
+    width: 100%;
+    margin-left: 10px;
+    background-color: #12475f;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+
