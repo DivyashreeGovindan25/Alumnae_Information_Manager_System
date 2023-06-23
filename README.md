@@ -1,5 +1,5 @@
 # Alumnae_Information_Manager_System
-Alumnae Information Management System is developed to bridge the gap between alumnae's
+Alumnae Information Management System is developed to bridge the gap between alumnae's and the institute
 .This is a completed working project developed using html,css,php and javascript.This project will have a home page where options will be there to navigate to different pages say
    * Login page
       * Alumnae login - Allows alumnae's to login and update personal information(No alumnae's will be there initially add any alumnae using admin page)
