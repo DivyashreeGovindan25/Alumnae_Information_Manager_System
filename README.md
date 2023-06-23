@@ -31,7 +31,7 @@ Alumnae Information Management System is developed to bridge the gap between alu
 13. Required setup is done,Run the index.php in browser
 
 ### Sample images of thie project
-# Output
+## Output
 ![Home](https://github.com/DivyashreeGovindan25/Alumnae_Information_Manager_System/assets/136978089/25f3e707-d6bf-4f87-972a-d4f7a6c3396d)
 
 ![loginD](https://github.com/DivyashreeGovindan25/Alumnae_Information_Manager_System/assets/136978089/f2975630-4125-444e-b2ed-699f322a4cb8)
