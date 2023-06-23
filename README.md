@@ -29,3 +29,17 @@ Alumnae Information Management System is developed to bridge the gap between alu
 11. The phpdatabases(2) sql files needs to imported in the phpdatabase of your phpmyadmin, a import option will be there - browse the file and go
 12. The sql file contains the sql queries to setup tables and table structure
 13. Required setup is done,Run the index.php in browser
+
+### Sample images of thie project
+# Output
+![Home](https://github.com/DivyashreeGovindan25/Alumnae_Information_Manager_System/assets/136978089/25f3e707-d6bf-4f87-972a-d4f7a6c3396d)
+
+![loginD](https://github.com/DivyashreeGovindan25/Alumnae_Information_Manager_System/assets/136978089/f2975630-4125-444e-b2ed-699f322a4cb8)
+
+![Admin home](https://github.com/DivyashreeGovindan25/Alumnae_Information_Manager_System/assets/136978089/eca5c21a-78bd-4599-a1ca-7f78a33a6e16)
+
+![staffmodule](https://github.com/DivyashreeGovindan25/Alumnae_Information_Manager_System/assets/136978089/bc96c078-36d4-4fec-991c-228f0b308aec)
+
+![contact](https://github.com/DivyashreeGovindan25/Alumnae_Information_Manager_System/assets/136978089/eda04cdd-375c-46be-b445-a7907b7d7802)
+
+![events](https://github.com/DivyashreeGovindan25/Alumnae_Information_Manager_System/assets/136978089/6ccdd0f5-1174-4c20-b22b-5e3ef04ffaf4)
