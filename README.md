@@ -26,6 +26,6 @@ Alumnae Information Management System is developed to bridge the gap between alu
 8. Localhost phpmyadmin will open in web browser, create a new database "phpdatabases" to include all the tables inside database
 9. NOTE:Give database name as exactly as i provided else no tables will be connected
 10. Inside XAMPP-->htdocs-->Inside the folder we have the project-->sql databases-->phpdatabases(2)
-11. This file needs to be imported in phpmyadmin, there import option to simply import this file
+11. The phpdatabases(2) sql files needs to imported in the phpdatabase of your phpmyadmin, a import option will be there - browse the file and go
 12. The sql file contains the sql queries to setup tables and table structure
 13. Required setup is done,Run the index.php in browser
